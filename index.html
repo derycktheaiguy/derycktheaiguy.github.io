@@ -30,10 +30,10 @@
             </div>
             <div class="nav-social">
                 <a href="https://github.com/derycktheaiguy" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="https://facebook.com/YOUR_FACEBOOK" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-                <a href="https://instagram.com/YOUR_INSTAGRAM" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="https://reddit.com/u/YOUR_REDDIT" target="_blank" aria-label="Reddit"><i class="fab fa-reddit"></i></a>
+                <a href="https://www.linkedin.com/in/deryck-stidham-92577934b" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/derycktheaiguy/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.Instagram.com/derycktheaiguy" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.reddit.com/user/Repulsive-Morning131/" target="_blank" aria-label="Reddit"><i class="fab fa-reddit"></i></a>
             </div>
         </div>
     </nav>
@@ -128,6 +128,61 @@
                             <strong>Momentum</strong> - Saving clients time and money to fuel progress
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tech-stack">
+        <div class="container">
+            <h2 class="section-title">The Sovereign Tech Stack</h2>
+            <p class="section-subtitle">Engineered for Privacy, Performance, and Radical Efficiency.</p>
+            
+            <div class="stack-grid">
+                <div class="stack-card">
+                    <div class="stack-icon"><i class="fab fa-linux"></i></div>
+                    <h4>Hybrid Compute Core</h4>
+                    <p class="stack-list">
+                        <strong>Primary:</strong> Linux Mint LMDE (Debian)<br>
+                        <strong>Compatibility:</strong> Windows 11 Pro<br>
+                        <strong>Hardware:</strong> Custom Modded Workstations
+                    </p>
+                </div>
+
+                <div class="stack-card">
+                    <div class="stack-icon"><i class="fas fa-brain"></i></div>
+                    <h4>Frontier Models</h4>
+                    <p class="stack-list">
+                        Anthropic Claude Opus • Google Gemini Pro<br>
+                        Abacus.AI • Perplexity • Galaxy.AI
+                    </p>
+                </div>
+
+                <div class="stack-card">
+                    <div class="stack-icon"><i class="fas fa-code-branch"></i></div>
+                    <h4>Open Source / Local LLMs</h4>
+                    <p class="stack-list">
+                        Ollama Ecosystem • Hugging Face • DeepSeek<br>
+                        Mistral • Alibaba Qwen • Stable Diffusion
+                    </p>
+                </div>
+
+                <div class="stack-card">
+                    <div class="stack-icon"><i class="fas fa-terminal"></i></div>
+                    <h4>Dev & Automation</h4>
+                    <p class="stack-list">
+                        VS Codium (Telemetry-Free) • Python/PyTorch<br>
+                        LangChain • AutoGPT • WebUI
+                    </p>
+                </div>
+
+                <div class="stack-card">
+                    <div class="stack-icon"><i class="fas fa-video"></i></div>
+                    <h4>Media & Production</h4>
+                    <p class="stack-list">
+                        Eleven Labs (Voice) • Synthesia (Avatar)<br>
+                        Jasper • MS Copilot • Google Workspace
+                    </p>
                 </div>
             </div>
         </div>
@@ -326,10 +381,10 @@
                     <h4>Connect</h4>
                     <div class="footer-social-icons">
                         <a href="https://github.com/derycktheaiguy" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://facebook.com/YOUR_FACEBOOK" target="_blank"><i class="fab fa-facebook"></i></a>
-                        <a href="https://instagram.com/YOUR_INSTAGRAM" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://reddit.com/u/YOUR_REDDIT" target="_blank"><i class="fab fa-reddit"></i></a>
+                        <a href="https://www.linkedin.com/in/deryck-stidham-92577934b" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/derycktheaiguy/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.Instagram.com/derycktheaiguy" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.reddit.com/user/Repulsive-Morning131/" target="_blank"><i class="fab fa-reddit"></i></a>
                     </div>
                 </div>
             </div>
@@ -339,7 +394,7 @@
             </div>
             
             <div class="footer-tools">
-                <a href="#" onclick="showPasswordPrompt(); return false;" class="tools-link">
+                <a href="javascript:void(0);" onclick="showPasswordPrompt();" class="tools-link">
                     <i class="fas fa-lock"></i> Internal Tools
                 </a>
             </div>
@@ -361,27 +416,115 @@
 
     <div id="discoveryFormSection" class="discovery-section hidden">
         <div class="container">
-            <p class="form-notice">Internal Strategic Discovery Tool - Confidential</p>
-            <form id="discoveryForm" class="discovery-form">
-                <div class="form-section">
-                    <h3>1. Client Overview</h3>
-                    <div class="form-group">
-                        <input type="text" name="clientName" placeholder="Client Name">
+            <style>
+                .discovery-wrapper { background: #f4f6f8; padding: 40px; border-radius: 12px; border: 1px solid #e0e0e0; }
+                .discovery-header { text-align: center; margin-bottom: 30px; border-bottom: 3px solid #0A2540; padding-bottom: 20px; }
+                .d-section { background: white; padding: 25px; margin-bottom: 30px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+                .d-title { background: #0A2540; color: white; padding: 10px 15px; border-radius: 5px; margin-bottom: 20px; font-weight: bold; }
+                .d-subtitle { font-weight: bold; color: #00D4AA; margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+                .d-group { margin-bottom: 20px; }
+                .d-label { display: block; font-weight: 700; margin-bottom: 5px; color: #333; }
+                .d-example { display: block; font-size: 0.85rem; color: #666; font-style: italic; margin-bottom: 8px; }
+                .d-input, .d-select, .d-textarea { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; }
+                .d-checkbox-group label { display: block; margin-bottom: 5px; font-weight: normal; font-size: 0.95rem; }
+                .form-actions { margin-top: 30px; display: flex; gap: 15px; justify-content: center; }
+            </style>
+
+            <div class="discovery-wrapper">
+                <div class="discovery-header">
+                    <h2>Internal Discovery & Scoping</h2>
+                    <p>Confidential Client Assessment Tool</p>
+                </div>
+
+                <form id="discoveryForm">
+                    <div class="d-section">
+                        <div class="d-title">1. Client Overview</div>
+                        <div class="d-group">
+                            <label class="d-label">Date</label>
+                            <input type="date" name="date" class="d-input">
+                        </div>
+                        <div class="d-group">
+                            <label class="d-label">Company Name</label>
+                            <input type="text" name="company" class="d-input" placeholder="Client Company LLC">
+                        </div>
+                        <div class="d-group">
+                            <label class="d-label">Contact Person(s)</label>
+                            <input type="text" name="contacts" class="d-input" placeholder="Name & Title">
+                        </div>
+                        <div class="d-group">
+                            <label class="d-label">Email & Phone</label>
+                            <input type="text" name="contact_info" class="d-input" placeholder="email@example.com | 555-0199">
+                        </div>
+                        <div class="d-group">
+                            <label class="d-label">Industry & Business Description</label>
+                            <textarea name="business_desc" class="d-textarea" rows="3" placeholder="What do they do? Who do they serve?"></textarea>
+                        </div>
                     </div>
-                </div>
-                <div class="form-section">
-                     <h3>2. Strategy Notes</h3>
-                     <div class="form-group">
-                        <textarea name="strategyNotes" placeholder="Strategic Analysis" rows="5"></textarea>
-                     </div>
-                </div>
-                
-                <div class="form-actions">
-                    <button type="button" class="btn btn-secondary" onclick="saveDiscoveryForm()">Save Draft</button>
-                    <button type="button" class="btn btn-primary" onclick="exportDiscoveryForm()">Export JSON</button>
-                    <button type="button" class="btn btn-secondary" onclick="clearDiscoveryForm()">Clear</button>
-                </div>
-            </form>
+
+                    <div class="d-section">
+                        <div class="d-title">2. Challenges & Goals</div>
+                        <div class="d-group">
+                            <label class="d-label">Primary Challenges (Check all that apply)</label>
+                            <div class="d-checkbox-group">
+                                <label><input type="checkbox" name="chal_marketing"> Marketing/Visibility (Low leads)</label>
+                                <label><input type="checkbox" name="chal_content"> Content (No time/strategy)</label>
+                                <label><input type="checkbox" name="chal_tech"> Tech/Systems (Messy CRM/No automation)</label>
+                                <label><input type="checkbox" name="chal_cost"> Cost (Agency fees too high)</label>
+                            </div>
+                        </div>
+                        <div class="d-group">
+                            <label class="d-label">The "Pain" Details</label>
+                            <textarea name="pain_details" class="d-textarea" rows="3" placeholder="Specific bottlenecks..."></textarea>
+                        </div>
+                        <div class="d-group">
+                            <label class="d-label">Measurable Goals</label>
+                            <span class="d-example">e.g. "Increase leads by 30% in 90 days"</span>
+                            <input type="text" name="goals" class="d-input">
+                        </div>
+                    </div>
+
+                    <div class="d-section">
+                        <div class="d-title">3. Service Requirements</div>
+                        
+                        <div class="d-subtitle">A. Launchpad / Strategy</div>
+                        <div class="d-group">
+                            <textarea name="req_launchpad" class="d-textarea" rows="2" placeholder="Deliverables needed (Business Plan, Logo, etc.)"></textarea>
+                        </div>
+
+                        <div class="d-subtitle">B. Content Suite</div>
+                        <div class="d-group">
+                            <textarea name="req_content" class="d-textarea" rows="2" placeholder="Blog posts, Social media, Email sequence?"></textarea>
+                        </div>
+
+                        <div class="d-subtitle">C. Automation</div>
+                        <div class="d-group">
+                            <textarea name="req_automation" class="d-textarea" rows="2" placeholder="Manual tasks to automate (Zapier, n8n, etc.)"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="d-section">
+                        <div class="d-title">4. Logistics & Budget</div>
+                        <div class="d-group">
+                            <label class="d-label">Budget Range</label>
+                            <input type="text" name="budget" class="d-input" placeholder="$3k - $8k">
+                        </div>
+                        <div class="d-group">
+                            <label class="d-label">Timeline</label>
+                            <input type="text" name="timeline" class="d-input" placeholder="Start Date / Deadline">
+                        </div>
+                        <div class="d-group">
+                            <label class="d-label">Red Flags / Risks</label>
+                            <textarea name="red_flags" class="d-textarea" rows="2" placeholder="Scope creep? Unclear decision maker?"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-secondary" onclick="saveDiscoveryForm()">Save Draft</button>
+                        <button type="button" class="btn btn-primary" onclick="exportDiscoveryForm()">Export JSON</button>
+                        <button type="button" class="btn btn-secondary" style="border-color: #ff5e5b; color: #ff5e5b;" onclick="clearDiscoveryForm()">Clear Form</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
